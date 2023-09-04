@@ -2,25 +2,25 @@
 <Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
   <CompilationType>CSharp</CompilationType>
   <Description i:nil="true" />
-  <Id>c7b6ff46-bb1e-45c9-95a4-29589e1a2512</Id>
+  <Id>6bc00ccb-c74a-4615-816a-2c7b80bef704</Id>
   <Logic z:Id="i2" i:type="ExecutedStep">
     <Childs>
       <AbstractStep z:Id="i3" i:type="ExecutedStep">
         <Childs />
-        <Id>851ace88-35f8-4557-b82c-8f8235a1722b</Id>
+        <Id>2f64ddc0-3e9f-43f2-80d7-2e73b59c83c1</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i4">
             <PropertyName>MinValue</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>10</_expression>
+            <_expression>9</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
           <PropertyValue z:Id="i5">
             <PropertyName>MaxValue</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>100</_expression>
+            <_expression>99</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -41,7 +41,7 @@
           <PropertyValue z:Id="i8">
             <PropertyName>ValueI</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>result</_expression>
+            <_expression></_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -64,11 +64,11 @@
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
-        <Text>Случайное значение</Text>
+        <Text></Text>
         <_activityFullName>BR.BaseActivities.RandomValue</_activityFullName>
       </AbstractStep>
     </Childs>
-    <Id>35fa8228-9451-4727-859a-d01805f2fa4b</Id>
+    <Id>15a94092-64b6-481c-a27a-2685e1ee01db</Id>
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
@@ -78,8 +78,9 @@
     <Text></Text>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
-  <Name>Main.pix*</Name>
+  <Name>Main.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>
